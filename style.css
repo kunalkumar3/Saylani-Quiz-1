@@ -1,0 +1,113 @@
+ * {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sign-up {
+    background: #8a42f7;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+.sign-up:hover {
+  background-color: rgb(7, 7, 7);
+  transition: 0.1s;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 80px;
+}
+
+.text-content p {
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.cta {
+    background: #8a42f7;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-left: 80px;
+}
+
+.cta:hover {
+  background-color: rgb(7, 7, 7);
+  transition: 0.1s;
+}
+
+
+.stats {
+    display: flex;
+    margin: 100px;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 15px 15px;
+}
+
+.stats div {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.image-content {
+    position: relative;
+}
+
+.image-content img {
+    width: 450px;
+    border-radius: 10px;
+    padding-left: 0%;
+    margin-right: 100px;
+}
